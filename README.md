@@ -254,6 +254,7 @@ Las propiedades del nodo de plantilla se muestran a continuación.</p>
 ***ran***
 
 <p>Crea un espacio de memoria con el cual guardamos el número aleatorio que vamos a generar para el programa de char/gauge</p>
+
 ***msg***
 
 <p>Crea un espacio de memoria con el cual ingresamos la cadena de caracteres para el programa audio output</p>
