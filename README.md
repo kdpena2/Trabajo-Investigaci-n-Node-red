@@ -12,8 +12,8 @@
  <p><li>Desarrollar un ejemplo básico en el que se evidencie la implementación de  audio out, template, notification, chart, gauge, form dropdown.</li></p>
 
 ****ESTADO DEL ARTE****
-***DESARROLLO DE PANELES DE CONTROL PARA REDES IOT
-BASADOS EN NODE-RED***
+
+***DESARROLLO DE PANELES DE CONTROL PARA REDES IOT BASADOS EN NODE-RED***
 <p>Salvador García Jiménez</p>
 <p>En el presente estudio se plantea como objetivo  principal generar dentro de un entorno IoT (Internet of Things), el envío de contenido multimedia en directo. Para lo cual se ha planteado el uso de interfaz  de una Raspberry Pi y un módulo de cámara a la cual está conectada. Así bien el mecanismo usado para la transmisión del contenido es DASH (Dynamic Adaptive Streaming over HTTP),el cual  permite obtener  fragmentos de vídeo que facilitan la reproducción del mismo tomando en cuenta que la velocidad de reproducción dependerá de la red que se use en el momento.La cámara envia los fragmentos de video a una web. Todo este proceso se une a través  de  la herramienta Node-RED,la cual permite diseñar flujos de datos que ayudan a modificar el video a reproducir ,en adición esta cuenta con la opción a realizar un Dashboard para así interactuar con los flujos de datos que se crean.El trabajo a su vez plantea que al momento de elegir una herramienta para trabajar en IoT se debe escoger Node-Red ya que ofrece varias ventajas entre las que destacan su sencillez,facilidad de uso ,interfaz gráfica intuitiva ,disponibilidad de una comunidad de usuarios y soporte.La interfaz gráfica facilitan la comprensión del flujo de los datos ,que mediante hilos conectan diversos nodos que tienen distintos usos y aplicaciones,además, permite al usuario descargar una serie de nodos adicionales ,los cuales provienen de la antes mencionada comunidad de usuarios mismos que aportan de manera abierta sus trabajos.Esta  aplicación basada en Node.js, escrita en JavaScript y que dispone de un modelo de entradas y salidas para crear aplicaciones  permite unir dispositivos hardware, APIs y servicios online de maneras muy interesantes. Es así que al  estar basada en Node.js genera el beneficio de ser una aplicación que consume pocos recursos y por tanto pueda utilizarse en dispositivos de la gama más baja de coste como una Raspberry Pi o servicios cloud.Por otra parte,el Dashboard de Node-RED se distribuye en una especie de rejilla, cada elemento grupo tiene un tamaño, por defecto se le asigna un ancho de 6 unidades, cada una se compone de 48 píxeles. En cada grupo existen widgets, los cuales también poseen la propiedad de la anchura, por defecto será automática y ocupará la anchura del elemento. Existen diversos nodos que ofrecen una gran utilidad a la hora de combinar una interfaz gráfica de visualización de resultados con la interacción entre el usuario y el flujo de datos diseñado. Existen desde formularios, botones y listas desplegables hasta templates donde programar un fragmento de lenguaje web.Tras todo lo anterior, el vídeo se representa en un Dashboard compuesto por un flujo de datos, que a su vez se compone de distintos nodos en la plataforma Node-RED.</p>
 
@@ -22,10 +22,7 @@ BASADOS EN NODE-RED***
 <p>Al igual que en este estudio al momento de diseñar Dashboard en node-red se pudo constatar sus ventajas ,ya que enfocándonos  en la interfaz gráfica que ofrece este ,se logró  comprender de manera clara cómo fluyen los datos,cuya transmisión se lleva a cabo mediante una especie de cajas llamadas nodos conectadas por hilos, las cuales pueden generar distintos usos .Además ,se incluye dentro del estudio como de la investigación que realizamos los principales widgets del Dashboard que permiten configurarlos a beneficio del usuario.</p>
 
 
-
-
 ***SISTEMA DE MONITOREO DE CALIDAD DEL AIRE BASADO EN MQTT USANDO NODE MCU Y NODE-RED***
-
 
 <p>Somphop Chanthakit,Choopan Rattanapoka</p>
 <p>Colegio de Tecnología Industrial, Universidad de Tecnología del Rey Mongkut.</p> <p>Bangkok del Norte, Bangkok, Tailandia.</p>
@@ -38,8 +35,6 @@ BASADOS EN NODE-RED***
 <p>Fecha añadida a IEEE Xplore : 08 de noviembre de 2018</p>
  
 <p>En el caso de nuestro trabajo al igual que en la investigación se pude visualizar que la interfaz gráfica que nos ofrece node-red constituye un entorno agradable para que el usuario desarrolle su trabajo,además, una vez más se evidencia la clara ventaja de sencillez al momento de entender cómo fluyen los datos  ,en el caso del estudio se usado los widgets disponibles en dashboard como el texto, indicador y gráfico ;mismos que hemos utilizado en los programas en adición con otros como la salida de audio como en el caso del velocímetro o aquel que  guarda claves en una base de datos.</p>
-
-
 
 
 ****MARCO TEÓRICO****
@@ -62,7 +57,7 @@ BASADOS EN NODE-RED***
 <p><li>Label/ Etiqueta: Se asigna el nombre que va a tener cada uno de los nodos al ser mostrados.</li></p>
 <p><li>Tooltip/ Información sobre herramientas: Se escribe una indicación al usuario, esta aparecerá al acercar el cursor al componente.</li></p>
  
-*******imagen********
+******imagen******
 
 <p><li>Name: Se sitúa el nombre que se va a visualizar solo en la terminal.</li></p>
  
