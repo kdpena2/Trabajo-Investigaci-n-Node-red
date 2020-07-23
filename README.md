@@ -1,9 +1,12 @@
 # Trabajo-Investigaci-n-Node-red
+
 ****PROBLEMA:****
 <p>¿Cuáles son los principales componentes que facilitan el diseño de Dashboard,su definición y parámetros de configuración?</p>
 ****OBJETIVO GENERAL:****
+
 <p>Identificar y describir de manera general los parámetros de configuración de los principales componentes disponibles en Node-Red para el diseño de Dashboard a través del análisis de información para su comprensión y posterior implementación.</p>
 ****OBJETIVOS ESPECÍFICOS:****
+ 
  <p><li>Identificar estudios recientes que contengan información acerca de Node-Red, para de esta forma conocer el objeto a investigar y las distintas aplicaciones en las que se encuentran que pude tener en diversos campos.</li></p>
 <p><li>Comprender la funcionalidad y parámetros de configuración para el diseño de Dashboard.</li></p>
 <p><li>Desarrollar un ejemplo básico en el que se evidencie la implementación de  audio out, template, notification, chart, gauge, form dropdown.</li></p>
