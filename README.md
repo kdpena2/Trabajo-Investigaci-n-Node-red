@@ -233,19 +233,18 @@ Las propiedades del nodo de plantilla se muestran a continuación.</p>
 
 <p>Este diagrama expresa la relación entre humano y máquina que existe en el momento de interpretar la información del usuario sea por entrada de teclado o por botón la máquina analiza el contenido y devuelve una salida de audio. </p>
 
-*****IMAGEN*****
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen%2022.png)
 
 ***Diagrama de flujo del programa “Char / Gauge / Notificación”***
  
 <p>Para este diagrama expresamos el retraso con el cual se va a generar los números aleatorios y en cómo se van a ver expresados  en sus gráficos de char y gauge cabe recalcar que la generación de número es consecutiva. </p>
  
-*****IMAGEN*****
-
+ ![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen%2023.png)
 
 
 ****LISTA DE COMPONENTES****
 <p>Estos son los recursos que se han utilizado a lo largo del desarrollo del trabajo de investigación.</p>
-
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen%2024.png)
 *****IMAGEN*****
 
 ****MAPA DE VARIABLES****
@@ -290,7 +289,7 @@ Las propiedades del nodo de plantilla se muestran a continuación.</p>
 
 ****DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN****
 
-*******imagen********
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen%2026.png)
 
 
 
