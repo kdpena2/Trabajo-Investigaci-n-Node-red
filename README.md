@@ -66,21 +66,21 @@
 <p><li>Payload: Se coloca lo que se devuelve al dar click en el botón, estos datos pueden ser de tipo string, number, boolen, JSON, buffer, timestamp, flow, global.</li></p>
  
  
-![]()
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen%202.png)
 
 ***Dropdown:***
 <p>Agrega un cuadro desplegable a la interfaz del usuario.</p>
  
 <p><li>Placeholder/Marcador de posición : Se escribe un texto que indique lo que debe seleccionar entre las opciones. También es posible escoger si se puede responder una sola opción o todas.</li></p>
 <p><li>Options: En el primer recuadro se agrega el tipo de dato que se va a ingresar, puede ser de tipo number, string o boolen, se añade el número de opciones que se quiera y en label se ingresa la opción.</li></p>
- 
-*****IMAGEN*****
+ ![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen3.png)
 
 ***Switch:***
 <p>Agrega un interruptor a la interfaz del usuario. </p>
 <p><li>On payload/ en carga útil: Incluye dos botones en su configuración, los cuales van a retornar dos estados en caso de ser presionados, estos estados al igual que los botones pueden ser de tipo entero, string, boolean, y entre otros ya antes mencionados.</li></p>
 
-*****IMAGEN*****
+ ![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen%204.png)
+ 
 
 ***Slider:***
 <p>Agrega un control deslizante manipulable a la interfaz de usuario. Una de sus aplicaciones  se puede observar conectado a un gauge, el cual es un widget de tipo indicador que se agrega a la interfaz del usuario. Con el deslizante se puede observar cómo se va a mover el indicador del gauge. </p>
@@ -88,7 +88,8 @@
 <p><li>Range: Se define el inicio, fin y paso que va a tener el nodo. Una de las particularidades en node red, es que el nodo slider puede conectarse al texto y devolver valores, transformado los datos de string a entero.</li></p>
 <p><li>Output: Se puede seleccionar si se quiere que se muestre en la terminal el valor en el que se quedó el deslizador en la interfaz.</li></p>
  
-*****IMAGEN*****
+ ![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen%205.png)
+ 
 
 ***Numeric:***
 <p>Agrega un widget de entrada numérico a la interfaz de usuario.</p>
@@ -96,7 +97,8 @@
 <p><li>Range/ Rango: Se pone el valor de inicio y fin que será seleccionado por medio de flechas. </li></p>
 <p>Si se quiere que una vez llegado al número final se retorna al inicio marcar Valor de ajuste de max a min y min a max.</p>
 
-*****IMAGEN*****
+ ![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen%206.png)
+  
 
 ***Text imput:***
 <p>Agrega un campo de entrada de texto a la interfaz del usuario, el cual puede tener distintos modos.</p>
@@ -104,12 +106,12 @@
 
 <p><li>Mode: Aquí se selecciona el tipo de entrada, la cual puede ser de texto, dirección de email, contraseña, número, teléfono, selector de color, selector de tiempo, selección de semana y mes. </li></p>
 
-*****IMAGEN*****
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen%207.png)
 
 ***Date picker:***
 <p>Agrega un widget de selector de fecha a la interfaz del usuario.</p>
  
-*****IMAGEN*****
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen%208.png)
 
 ***Colour picker:***
 <p>Agrega un selector de color al tablero.</p>
@@ -119,10 +121,8 @@
 <p><li>Send: Aquí se puede seleccionar entre enviar múltiples valores durante la edición o un valor cuando se haya cerrado.</li></p>
 <p><li>Playload: Existen dos opciones, la primera es devolver el valor actual como objeto, o como una cadena.</li></p>
  
- 
- 
- 
-*****IMAGEN*****
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen%209.png)
+
 
 ***Form:***
 <p>Agrega un formulario a la interfaz del usuario.</p>
@@ -131,21 +131,23 @@
 
 <p><li>Buttons: Se muestran dos opciones después de haber ingresado lo que se pide en form elements.</li></p>
 
-*****IMAGEN*****
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen%2010.png)
+
 
 ***Text:***
 <p>El componente text es una salida de texto que sirve para mostrar un campo de texto no editable en la interfaz.</p>
 <p><li>Label/ Etiqueta: colocamos lo que queremos que nos aparezca en la pantalla, y en el diseño se puede escoger entre las opciones que se encuentran.</li></p>
 
-*****IMAGEN*****
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen%2011.png)
+
 
 ***Chart:***
  
-*****IMAGEN*****
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen%2012.png)
 
 <p>Este nodo agrega un gráfico al tablero. El gráfico utiliza valores enviados a través de msg.payload para su visualización. Los gráficos admiten hasta nueve series diferentes de valores.Tiene modos de línea, barra y gráfico circular. Además, las etiquetas del eje X se pueden personalizar utilizando una cadena de formateador de fecha. El gráfico a su vez utiliza valores enviados a través de msg.payload para su visualización. Los gráficos admiten hasta nueve series diferentes de valores.</p>
 
-*****IMAGEN*****
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen%2013.png)
 
 <p>Se puede elegir el tipo diseño entre dos opciones,es decir,que este puede ser lineal o radial.</p>
 <p><li>Modo: Opción para activar el modo diferencial. Con esta opción seleccionada, la pista coloreada tiene un punto central desde el cual se muestra el valor. El valor del punto central se puede ajustar. Si el valor central no está definido, el punto central está exactamente entre el mínimo configurado y el máximo.</li></p>
@@ -159,12 +161,13 @@
  
  ***Audio out:***
  
-*****IMAGEN*****
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen%2014.png)
+
 
 <p>Un widget que le permitirá reproducir audio (wav o mp3) o enviar texto a voz (TTS) al cliente.Este nodo reproducirá audio de texto a voz de los mensajes enviados a través del objeto msg.payload . El audio se reproducirá incluso cuando el tablero esté minimizado.</p>
 
  
-*****IMAGEN*****
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen%2015.png)
 
 <p><li>Group/Grupo:Es el espacio en el que se va a contener el nodo dentro del dashboard.</li></p>
 <p><li>TTS Voice:TTS estas siglas significan text to speech ,es decir, texto para hablar.Esta opción envía una cadena de texto al motor de texto a voz de Google para que se convierta en audio de voz. El servicio TTS de Google tiene un límite de longitud de cadena de entrada de 200 caracteres. Si el texto a traducir tiene más de 200 caracteres, se dividirá de manera inteligente en segmentos y la salida consistirá en una matriz de URL que se vinculan a archivos de audio secuencias que codifican cada segmento.</li></p>
@@ -172,11 +175,12 @@
  
 ***Notification:***
  
-*****IMAGEN*****
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen%2016.png)
+
 
 <p>La notificación , que crea alertas para el usuario, puede ser una ventana emergente de pan tostado o un cuadro de alerta descartable. La alerta puede estar dirigida a un solo usuario.Para que en el Dashboard quede constancia de todos las acciones realizadas , mediante las notificaciones de Node-Red , salen unos avisos en el lado derecho arriba sobre las acciones pulsadas o realizadas en cada momento.Es decir que este nodo muestra notificaciones como ventanas emergentes en la interfaz del tablero. msg.payload será el mensaje emergente, msg.topic será el título y msg.highlight establecerá el color de resaltado del borde opcional.</p>
 
-*****IMAGEN*****
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen%2017.png)
 
 <p><li>Layout/Diseño:Se refiere a la parte en la que se presentará la notificación.</li></p>
 
@@ -191,17 +195,17 @@
 <p>Hay dos nodos de plantilla en nodo-rojo. Son el nodo de plantilla HTML y el nodo de plantilla de panel.</p>
 Las propiedades del nodo de plantilla se muestran a continuación.</p>
 
-*****IMAGEN*****
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen%2018.png)
 
 <p>El nodo acepta entradas en el objeto msg.payload.</p>
 <p>El campo llamado propiedad establece el nombre del objeto de salida del nodo.</p>
 <p>Normalmente esto es msg.payload pero puede cambiarlo a lo que quiera. por ejemplo, msg.options. Incluso puede enviarlo directamente a un flujo o variable global.</p>
 
-*****IMAGEN*****
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen%2019.png)
 
 <p>Si la plantilla contiene datos JSON o datos YAML , lo cual es común cuando se usa la plantilla como un nodo de configuración, puede generar los datos como un objeto JSON analizado o un objeto YAML analizado, es decir, JavaScript .</p>
 
-*****IMAGEN*****
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen%2020.png)
 
 <p><li>Template type:se refiere a en qué grupo se encuentra este widget.</li></p>
 <p><li>Group/ grupo: Aquí se va a contener el nodo dentro del dashboard, si se va a implementar distintos nodos para un mismo objetivo.</li></p>
@@ -211,7 +215,7 @@ Las propiedades del nodo de plantilla se muestran a continuación.</p>
 
 <p>Este nodo muestra un widget de tipo de indicador en el tablero. Formateará los números pasados a través de msg.payload en un widget de estilo de indicador. El medidor contiene diferentes sectores y la aguja se moverá a diferentes sectores según el Rango y el valor pasado al widget a través de msg.payload.</p>
  
-*****IMAGEN*****
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen%2021.png)
 
 <p><li>Group/ grupo: Aquí se va a contener el nodo dentro del dashboard, si se va a implementar distintos nodos para un mismo objetivo, lo mejor sería colocarlos en el mismo grupo.</li></p>
 <p><li>Size:Se selecciona el tamaño del gráfico.</li></p>
