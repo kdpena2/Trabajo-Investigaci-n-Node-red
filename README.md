@@ -264,7 +264,7 @@ Las propiedades del nodo de plantilla se muestran a continuación.</p>
     <p>msg.playload = "";</p>
    <p> return msg;</p>
 <p>}</p>
-<p> y dé espacio a poder escribir otra cadena de texto, consecuente a esto conectamos un nuevo nodo function el cual cambiará la palabra antigua por la nueva.</p>
+<p>y le otorgue espacio espacio para poder escribir otra cadena de texto, consecuente a esto conectamos un nuevo nodo function el cual cambiará la palabra antigua por la nueva.</p>
 <p>text=msg.playload;</p>
 <p>if(text !== ""){</p>
   <p>  msg.playload = text;</p>
