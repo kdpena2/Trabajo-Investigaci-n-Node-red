@@ -245,6 +245,7 @@ Las propiedades del nodo de plantilla se muestran a continuación.</p>
 
 ****LISTA DE COMPONENTES****
 <p>Estos son los recursos que se han utilizado a lo largo del desarrollo del trabajo de investigación.</p>
+
 ![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen%2024.png)
 
 
