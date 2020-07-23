@@ -61,14 +61,14 @@
 
 <p><li>Name: Se sitúa el nombre que se va a visualizar solo en la terminal.</li></p>
  
-**Button:**
+***Button:***
 <p>Agrega un botón a la interfaz del usuario, el cual al ser presionado debe dar como resultado lo que se indique.</p>
 <p><li>Payload: Se coloca lo que se devuelve al dar click en el botón, estos datos pueden ser de tipo string, number, boolen, JSON, buffer, timestamp, flow, global.</li></p>
  
  
 *****IMAGEN*****
 
-**Dropdown:**
+***Dropdown:***
 <p>Agrega un cuadro desplegable a la interfaz del usuario.</p>
  
 <p><li>Placeholder/Marcador de posición : Se escribe un texto que indique lo que debe seleccionar entre las opciones. También es posible escoger si se puede responder una sola opción o todas.</li></p>
@@ -76,13 +76,13 @@
  
 *****IMAGEN*****
 
-**Switch:**
+***Switch:***
 <p>Agrega un interruptor a la interfaz del usuario. </p>
 <p><li>On payload/ en carga útil: Incluye dos botones en su configuración, los cuales van a retornar dos estados en caso de ser presionados, estos estados al igual que los botones pueden ser de tipo entero, string, boolean, y entre otros ya antes mencionados.</li></p>
 
 *****IMAGEN*****
 
-**Slider:**
+***Slider:***
 <p>Agrega un control deslizante manipulable a la interfaz de usuario. Una de sus aplicaciones  se puede observar conectado a un gauge, el cual es un widget de tipo indicador que se agrega a la interfaz del usuario. Con el deslizante se puede observar cómo se va a mover el indicador del gauge. </p>
  
 <p><li>Range: Se define el inicio, fin y paso que va a tener el nodo. Una de las particularidades en node red, es que el nodo slider puede conectarse al texto y devolver valores, transformado los datos de string a entero.</li></p>
@@ -90,7 +90,7 @@
  
 *****IMAGEN*****
 
-**Numeric:**
+***Numeric:***
 <p>Agrega un widget de entrada numérico a la interfaz de usuario.</p>
  
 <p><li>Range/ Rango: Se pone el valor de inicio y fin que será seleccionado por medio de flechas. </li></p>
@@ -98,7 +98,7 @@
 
 *****IMAGEN*****
 
-**Text imput:**
+***Text imput:***
 <p>Agrega un campo de entrada de texto a la interfaz del usuario, el cual puede tener distintos modos.</p>
 <p><li>Label: Se coloca lo que se quiere que el usuario ingrese, y se puede visualizar con el nodo text.</li></p>
 
@@ -106,12 +106,12 @@
 
 *****IMAGEN*****
 
-**Date picker:**
+***Date picker:***
 <p>Agrega un widget de selector de fecha a la interfaz del usuario.</p>
  
 *****IMAGEN*****
 
-**Colour picker:**
+***Colour picker:***
 <p>Agrega un selector de color al tablero.</p>
  
 <p><li>Format: Se puede escoger entre hx, hx8, hsl, hsv, rgb.</li></p>
@@ -124,7 +124,7 @@
  
 *****IMAGEN*****
 
-**Form:**
+***Form:***
 <p>Agrega un formulario a la interfaz del usuario.</p>
 
 <p><li>Form elements: Se muestra una serie de elementos a ingresar, se escoge el tipo que puede ser: texto, multilínea, número, e-mail, contraseña, switch o fecha. También se puede seleccionar si es o no requerido el ingreso de este elemento.</li></p>
@@ -133,13 +133,13 @@
 
 *****IMAGEN*****
 
-**Text:**
+***Text:***
 <p>El componente text es una salida de texto que sirve para mostrar un campo de texto no editable en la interfaz.</p>
 <p><li>Label/ Etiqueta: colocamos lo que queremos que nos aparezca en la pantalla, y en el diseño se puede escoger entre las opciones que se encuentran.</li></p>
 
 *****IMAGEN*****
 
-**Chart:**
+***Chart:***
  
 *****IMAGEN*****
 
@@ -157,7 +157,7 @@
 
 <p><li>x-axis and y-axis: Las coordenadas x / y del nodo cuando se dibuja el flujo.</li></p>
  
- **Audio out:**
+ ***Audio out:***
  
 *****IMAGEN*****
 
@@ -170,7 +170,7 @@
 <p><li>TTS Voice:TTS estas siglas significan text to speech ,es decir, texto para hablar.Esta opción envía una cadena de texto al motor de texto a voz de Google para que se convierta en audio de voz. El servicio TTS de Google tiene un límite de longitud de cadena de entrada de 200 caracteres. Si el texto a traducir tiene más de 200 caracteres, se dividirá de manera inteligente en segmentos y la salida consistirá en una matriz de URL que se vinculan a archivos de audio secuencias que codifican cada segmento.</li></p>
 <p><li>Name/Nombre:Será el identificativo para reconocer a  ese widget.</li></p>
  
-**Notification:**
+***Notification:***
  
 *****IMAGEN*****
 
@@ -185,7 +185,7 @@
 <p><li>Topic/Tema:se selecciona el tema que puede ser opcional.</li></p>
 <p><li>Name:Será  el identificador con el que se reconocerá.</li></p>
  
-**Template:**
+***Template:***
 
 <p>El nodo de plantilla permite al usuario especificar y crear sus propios widgets dentro del marco utilizando HTML, Javascript. Este es un widget Angular.js. También puede usar esto para anular los estilos CSS incorporados.</p>
 <p>Hay dos nodos de plantilla en nodo-rojo. Son el nodo de plantilla HTML y el nodo de plantilla de panel.</p>
@@ -207,7 +207,7 @@ Las propiedades del nodo de plantilla se muestran a continuación.</p>
 <p><li>Group/ grupo: Aquí se va a contener el nodo dentro del dashboard, si se va a implementar distintos nodos para un mismo objetivo.</li></p>
 <p><li>Size:Dirá la medida que puede ser elegida por el usuario, caso contrario permanecerá con la medida autodesignada.</li></p>
  
-**Gauge:**
+***Gauge:***
 
 <p>Este nodo muestra un widget de tipo de indicador en el tablero. Formateará los números pasados a través de msg.payload en un widget de estilo de indicador. El medidor contiene diferentes sectores y la aguja se moverá a diferentes sectores según el Rango y el valor pasado al widget a través de msg.payload.</p>
  
