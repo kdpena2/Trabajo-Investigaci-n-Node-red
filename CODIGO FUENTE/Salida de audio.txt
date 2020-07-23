@@ -1,0 +1,12 @@
+text=msg.playload;
+if(text !== ""){
+    msg.playload = "";
+    return msg;
+}
+
+text=msg.playload;
+if(text !== ""){
+    msg.playload = text;
+    return msg;
+}
+

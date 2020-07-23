@@ -1,0 +1,4 @@
+ran =parseInt(Math.random() *10);
+msg.topic = "Random1";
+msg.payload = ran;
+return msg;
