@@ -66,7 +66,7 @@
 <p><li>Payload: Se coloca lo que se devuelve al dar click en el botón, estos datos pueden ser de tipo string, number, boolen, JSON, buffer, timestamp, flow, global.</li></p>
  
  
-*******imagen********
+#*******imagen*****
 
 **Dropdown:**
 <p>Agrega un cuadro desplegable a la interfaz del usuario.</p>
