@@ -229,9 +229,18 @@ Las propiedades del nodo de plantilla se muestran a continuación.</p>
 
 ****DIAGRAMAS****
 
-*****IMAGEN*****
+***Diagrama de caso uso del programa “audio output”***
+
+<p>Este diagrama expresa la relación entre humano y máquina que existe en el momento de interpretar la información del usuario sea por entrada de teclado o por botón la máquina analiza el contenido y devuelve una salida de audio. </p>
 
 *****IMAGEN*****
+
+***Diagrama de flujo del programa “Char / Gauge / Notificación”***
+ 
+<p>Para este diagrama expresamos el retraso con el cual se va a generar los números aleatorios y en cómo se van a ver expresados  en sus gráficos de char y gauge cabe recalcar que la generación de número es consecutiva. </p>
+ 
+*****IMAGEN*****
+
 
 
 ****LISTA DE COMPONENTES****
