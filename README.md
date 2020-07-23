@@ -239,6 +239,53 @@ Las propiedades del nodo de plantilla se muestran a continuación.</p>
 
 *****IMAGEN*****
 
+****MAPA DE VARIABLES****
+
+*****IMAGEN*****
+
+****EXPLICACIÓN DE CÓDIGO FUENTE****
+
+***Explicación codigo “Audio Output”***
+
+<p> Como primer punto usamos el nodo inject para inicializar nuestra variable msg a usar, conectado a este irá el nodo input en el cual podremos ingresar texto para que el programa lo procese, anterior a este usamos una conección entre un nodo delay y un nodo function con los cuales podremos generar un retraso, estos permitirán que  nuestra variable ingresada en el nodo input  se limpie mediante una codificación en JS. </p>
+
+<p>text=msg.playload;</p> 
+<p>if(text !== ""){</p>
+    <p>msg.playload = "";</p>
+   <p> return msg;</p>
+<p>}</p>
+<p> y dé espacio a poder escribir otra cadena de texto, consecuente a esto conectamos un nuevo nodo function el cual cambiará la palabra antigua por la nueva.</p>
+<p>text=msg.playload;</p>
+<p>if(text !== ""){</p>
+  <p>  msg.playload = text;</p>
+   <p> return msg;</p>
+<p>}</p>
+<p>Un nodo de salida de audio estará conectado al final de este para poder escuchar la palabra impuesta, con el método base establecido empleamos nodos button para que mediante un link se conecten al nodo input y de esta manera tener palabras preestablecidas alojadas dentro del botón por último conectamos un nodo notification el cual nos permite a la par que escuchamos la palabra visualizarla como si de un mensaje se tratara.</p>
+
+***Explicación codigo “Char / Gauge / Notification”***
+
+<p>Mediante un nodo inject inicializamos nuestra variable msg que node red usa por defecto al mismo tiempo que le incluimos un intervalo de 2 segundo este nodo lo conectaremos a un nodo function en el cual crearemos nuestro número aleatorio </p>
+<p>ran =parseInt(Math.random() *10);</p>
+<p>msg.topic = "Random1";</p>
+<p>msg.payload = ran;</p>
+<p>return msg;</p>
+<p>El cual nos servirá como base para nuestro nodo char y nuestros nodos gauge los cuales genera gráficos en un espacio x, y con un intervalo de 2 segundos establecidos anteriormente el mismo método lo usamos para generar un número aleatorio que lo muestre un nodo notification. </p>
+
+***Explicación código “Forms”***
+
+<p> Usamos directamente el nodo forms el cual irá conectado a un nodo debug el cual revisa errores el nodo forms es configurable y en este podemos ingresar datos por teclado podemos decidir cuántos valores ingresar, si estos valores son obligatorios o no para la persona que ejecuten el programa y descargando un nodo cloudant mediante escribir npm install node-red-node-cf-cloudant en la consola de node-Js podremos usar una base de datos que la generemos con anterioridad por ejemplo en IBM cloud.</p>
+
+***Explicación código “Template”***
+
+<p>Para el uso el nodo template basta con conectarlo a un nodo inject una vez conectado el nodo template nos otorga de un espacio programable con estructura HTML en el cual podemos programar de forma libre el espacio y llenarlo de nuestra información en nuestro caso se genera una plantilla basado en estructura JS y CSS llamando a los lenguajes mediante las etiquetas <script> y <syle> respectivamente. </p>
+
+****DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN****
+
+*******imagen********
+
+
+
+
 
 
 
