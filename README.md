@@ -57,7 +57,7 @@
 <p><li>Label/ Etiqueta: Se asigna el nombre que va a tener cada uno de los nodos al ser mostrados.</li></p>
 <p><li>Tooltip/ Información sobre herramientas: Se escribe una indicación al usuario, esta aparecerá al acercar el cursor al componente.</li></p>
  
-*****imagen*****
+*****IMAGEN*****
 
 <p><li>Name: Se sitúa el nombre que se va a visualizar solo en la terminal.</li></p>
  
@@ -66,7 +66,7 @@
 <p><li>Payload: Se coloca lo que se devuelve al dar click en el botón, estos datos pueden ser de tipo string, number, boolen, JSON, buffer, timestamp, flow, global.</li></p>
  
  
-#*******imagen*****
+*****IMAGEN*****
 
 **Dropdown:**
 <p>Agrega un cuadro desplegable a la interfaz del usuario.</p>
@@ -74,11 +74,13 @@
 <p><li>Placeholder/Marcador de posición : Se escribe un texto que indique lo que debe seleccionar entre las opciones. También es posible escoger si se puede responder una sola opción o todas.</li></p>
 <p><li>Options: En el primer recuadro se agrega el tipo de dato que se va a ingresar, puede ser de tipo number, string o boolen, se añade el número de opciones que se quiera y en label se ingresa la opción.</li></p>
  
-*******imagen********
+*****IMAGEN*****
+
 **Switch:**
 <p>Agrega un interruptor a la interfaz del usuario. </p>
 <p><li>On payload/ en carga útil: Incluye dos botones en su configuración, los cuales van a retornar dos estados en caso de ser presionados, estos estados al igual que los botones pueden ser de tipo entero, string, boolean, y entre otros ya antes mencionados.</li></p>
-*******imagen********
+
+*****IMAGEN*****
 
 **Slider:**
 <p>Agrega un control deslizante manipulable a la interfaz de usuario. Una de sus aplicaciones  se puede observar conectado a un gauge, el cual es un widget de tipo indicador que se agrega a la interfaz del usuario. Con el deslizante se puede observar cómo se va a mover el indicador del gauge. </p>
@@ -86,7 +88,7 @@
 <p><li>Range: Se define el inicio, fin y paso que va a tener el nodo. Una de las particularidades en node red, es que el nodo slider puede conectarse al texto y devolver valores, transformado los datos de string a entero.</li></p>
 <p><li>Output: Se puede seleccionar si se quiere que se muestre en la terminal el valor en el que se quedó el deslizador en la interfaz.</li></p>
  
-*******imagen********
+*****IMAGEN*****
 
 **Numeric:**
 <p>Agrega un widget de entrada numérico a la interfaz de usuario</p>
@@ -94,19 +96,21 @@
 <p><li>Range/ Rango: Se pone el valor de inicio y fin que será seleccionado por medio de flechas. </li></p>
 <p>Si se quiere que una vez llegado al número final se retorna al inicio marcar Valor de ajuste de max a min y min a max.</p>
 
-*******imagen********
+*****IMAGEN*****
+
 **Text imput:**
 <p>Agrega un campo de entrada de texto a la interfaz del usuario, el cual puede tener distintos modos.</p>
 <p><li>Label: Se coloca lo que se quiere que el usuario ingrese, y se puede visualizar con el nodo text.</li></p>
 
 <p><li>Mode: Aquí se selecciona el tipo de entrada, la cual puede ser de texto, dirección de email, contraseña, número, teléfono, selector de color, selector de tiempo, selección de semana y mes. </li></p>
 
-*******imagen********
+*****IMAGEN*****
 
 **Date picker:**
 <p>Agrega un widget de selector de fecha a la interfaz del usuario.</p>
  
-*******imagen********
+*****IMAGEN*****
+
 **Colour picker:**
 <p>Agrega un selector de color al tablero.</p>
  
@@ -118,7 +122,7 @@
  
  
  
-*******imagen********
+*****IMAGEN*****
 
 **Form:**
 <p>Agrega un formulario a la interfaz del usuario.</p>
@@ -127,21 +131,21 @@
 
 <p><li>Buttons: Se muestran dos opciones después de haber ingresado lo que se pide en form elements.</li></p>
 
-*******imagen*******
+*****IMAGEN*****
 
 **Text:**
 <p>El componente text es una salida de texto que sirve para mostrar un campo de texto no editable en la interfaz.</p>
 <p><li>Label/ Etiqueta: colocamos lo que queremos que nos aparezca en la pantalla, y en el diseño se puede escoger entre las opciones que se encuentran.</li></p>
 
-*******imagen*******
+*****IMAGEN*****
 
 **Chart:**
  
-*******imagen*******
+*****IMAGEN*****
 
 <p>Este nodo agrega un gráfico al tablero. El gráfico utiliza valores enviados a través de msg.payload para su visualización. Los gráficos admiten hasta nueve series diferentes de valores.Tiene modos de línea, barra y gráfico circular. Además, las etiquetas del eje X se pueden personalizar utilizando una cadena de formateador de fecha. El gráfico a su vez utiliza valores enviados a través de msg.payload para su visualización. Los gráficos admiten hasta nueve series diferentes de valores</p>
 
-*******imagen*******
+*****IMAGEN*****
 
 <p>Se puede elegir el tipo diseño entre dos opciones,es decir,que este puede ser lineal o radial.</p>
 <p><li>Modo: Opción para activar el modo diferencial. Con esta opción seleccionada, la pista coloreada tiene un punto central desde el cual se muestra el valor. El valor del punto central se puede ajustar. Si el valor central no está definido, el punto central está exactamente entre el mínimo configurado y el máximo.</li></p>
@@ -155,22 +159,24 @@
  
  **Audio out:**
  
-*******imagen*******
+*****IMAGEN*****
+
 <p>Un widget que le permitirá reproducir audio (wav o mp3) o enviar texto a voz (TTS) al cliente.Este nodo reproducirá audio de texto a voz de los mensajes enviados a través del objeto msg.payload . El audio se reproducirá incluso cuando el tablero esté minimizado.</p>
 
  
-*******imagen*******
+*****IMAGEN*****
 
 <p><li>Group/Grupo:Es el espacio en el que se va a contener el nodo dentro del dashboard.</li></p>
 <p><li>TTS Voice:TTS estas siglas significan text to speech ,es decir, texto para hablar.Esta opción envía una cadena de texto al motor de texto a voz de Google para que se convierta en audio de voz. El servicio TTS de Google tiene un límite de longitud de cadena de entrada de 200 caracteres. Si el texto a traducir tiene más de 200 caracteres, se dividirá de manera inteligente en segmentos y la salida consistirá en una matriz de URL que se vinculan a archivos de audio secuencias que codifican cada segmento.</li></p>
 <p><li>Name/Nombre:Será el identificativo para reconocer a  ese widget.</li></p>
  
-Notification:
+**Notification:**
  
-*******imagen*******
+*****IMAGEN*****
 
 <p>La notificación , que crea alertas para el usuario, puede ser una ventana emergente de pan tostado o un cuadro de alerta descartable. La alerta puede estar dirigida a un solo usuario.Para que en el Dashboard quede constancia de todos las acciones realizadas , mediante las notificaciones de Node-Red , salen unos avisos en el lado derecho arriba sobre las acciones pulsadas o realizadas en cada momento.Es decir que este nodo muestra notificaciones como ventanas emergentes en la interfaz del tablero. msg.payload será el mensaje emergente, msg.topic será el título y msg.highlight establecerá el color de resaltado del borde opcional.</p>
-*******imagen********
+
+*****IMAGEN*****
 
 <p><li>Layout/Diseño:Se refiere a la parte en la que se presentará la notificación</li></p>
 
@@ -179,31 +185,33 @@ Notification:
 <p><li>Topic/Tema:se selecciona el tema que puede ser opcional.</li></p>
 <p><li>Name:Será  el identificador con el que se reconocerá.</li></p>
  
-Template:
+**Template:**
 
 <p>El nodo de plantilla permite al usuario especificar y crear sus propios widgets dentro del marco utilizando HTML, Javascript. Este es un widget Angular.js. También puede usar esto para anular los estilos CSS incorporados.</p>
 <p>Hay dos nodos de plantilla en nodo-rojo. Son el nodo de plantilla HTML y el nodo de plantilla de panel.</p>
 Las propiedades del nodo de plantilla se muestran a continuación.</p>
 
-*******imagen********
+*****IMAGEN*****
 
 <p>El nodo acepta entradas en el objeto msg.payload</p>
 El campo llamado propiedad establece el nombre del objeto de salida del nodo.</p>
 <p>Normalmente esto es msg.payload pero puede cambiarlo a lo que quiera. por ejemplo, msg.options. Incluso puede enviarlo directamente a un flujo o variable global.</p>
 
-*******imagen********
+*****IMAGEN*****
 
 <p>Si la plantilla contiene datos JSON o datos YAML , lo cual es común cuando se usa la plantilla como un nodo de configuración, puede generar los datos como un objeto JSON analizado o un objeto YAML analizado, es decir, JavaScript .</p>
-*******imagen********
+
+*****IMAGEN*****
 
 <p><li>Template type:se refiere a en qué grupo se encuentra este widget.</li></p>
 <p><li>Group/ grupo: Aquí se va a contener el nodo dentro del dashboard, si se va a implementar distintos nodos para un mismo objetivo.</li></p>
 <p><li>Size:Dirá la medida que puede ser elegida por el usuario, caso contrario permanecerá con la medida autodesignada.</li></p>
  
-***Gauge:***
+**Gauge:**
+
 <p>Este nodo muestra un widget de tipo de indicador en el tablero. Formateará los números pasados ​​a través de msg.payload en un widget de estilo de indicador. El medidor contiene diferentes sectores y la aguja se moverá a diferentes sectores según el Rango y el valor pasado al widget a través de msg.payload .</p>
  
-*******imagen********
+*****IMAGEN*****
 
 <p><li>Group/ grupo: Aquí se va a contener el nodo dentro del dashboard, si se va a implementar distintos nodos para un mismo objetivo, lo mejor sería colocarlos en el mismo grupo.</li></p>
 <p><li>Size:Se selecciona el tamaño del gráfico.</li></p>
@@ -217,13 +225,15 @@ El campo llamado propiedad establece el nombre del objeto de salida del nodo.</p
 
 ****DIAGRAMAS****
 
-*******imagen*******
-*******imagen*******
+*****IMAGEN*****
+
+*****IMAGEN*****
 
 
 ****LISTA DE COMPONENTES****
 <p>Estos son los recursos que se han utilizado a lo largo del desarrollo del trabajo de investigación.</p>
-*******imagen********
+
+*****IMAGEN*****
 
 
 
