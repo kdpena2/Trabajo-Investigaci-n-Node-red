@@ -73,6 +73,7 @@
  
 <p><li>Placeholder/Marcador de posición : Se escribe un texto que indique lo que debe seleccionar entre las opciones. También es posible escoger si se puede responder una sola opción o todas.</li></p>
 <p><li>Options: En el primer recuadro se agrega el tipo de dato que se va a ingresar, puede ser de tipo number, string o boolen, se añade el número de opciones que se quiera y en label se ingresa la opción.</li></p>
+
  ![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen3.png)
 
 ***Switch:***
@@ -245,7 +246,7 @@ Las propiedades del nodo de plantilla se muestran a continuación.</p>
 ****LISTA DE COMPONENTES****
 <p>Estos son los recursos que se han utilizado a lo largo del desarrollo del trabajo de investigación.</p>
 ![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen%2024.png)
-*****IMAGEN*****
+
 
 ****MAPA DE VARIABLES****
 
