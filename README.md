@@ -57,7 +57,6 @@
 <p><li>Label/ Etiqueta: Se asigna el nombre que va a tener cada uno de los nodos al ser mostrados.</li></p>
 <p><li>Tooltip/ Información sobre herramientas: Se escribe una indicación al usuario, esta aparecerá al acercar el cursor al componente.</li></p>
  
-*****IMAGEN*****
 ![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen1.png)
 
 <p><li>Name: Se sitúa el nombre que se va a visualizar solo en la terminal.</li></p>
@@ -67,7 +66,7 @@
 <p><li>Payload: Se coloca lo que se devuelve al dar click en el botón, estos datos pueden ser de tipo string, number, boolen, JSON, buffer, timestamp, flow, global.</li></p>
  
  
-*****IMAGEN*****
+![]()
 
 ***Dropdown:***
 <p>Agrega un cuadro desplegable a la interfaz del usuario.</p>
