@@ -1,4 +1,4 @@
-# Trabajo-Investigaci-n-Node-red
+#  NODE-RED PARA EL DISEÑO DE DASHBOARD
 
 ****PROBLEMA:****
 <p>¿Cuáles son los principales componentes que facilitan el diseño de Dashboard,su definición y parámetros de configuración?</p>
@@ -8,8 +8,8 @@
 
 ****OBJETIVOS ESPECÍFICOS:**** 
  <p><li>Identificar estudios recientes que contengan información acerca de Node-Red, para de esta forma conocer el objeto a investigar y las distintas aplicaciones en las que se encuentran que pude tener en diversos campos.</li></p>
-<p><li>Comprender la funcionalidad y parámetros de configuración para el diseño de Dashboard.</li></p>
-<p><li>Desarrollar un ejemplo básico en el que se evidencie la implementación de  audio out, template, notification, chart, gauge, form dropdown.</li></p>
+ <p><li>Comprender la funcionalidad y parámetros de configuración para el diseño de Dashboard.</li></p>
+ <p><li>Desarrollar un ejemplo básico en el que se evidencie la implementación de  audio out, template, notification, chart, gauge, form dropdown.</li></p>
 
 ****ESTADO DEL ARTE****
 ***DESARROLLO DE PANELES DE CONTROL PARA REDES IOT
