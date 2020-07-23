@@ -293,6 +293,42 @@ Las propiedades del nodo de plantilla se muestran a continuación.</p>
 
 ![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Imagen%2026.png)
 
+****APORTACIONES****
+
+<p> Para la implementación de los programas solicitados se agrego el uso de nodos diferentes como  botones, links y funciones los cuales permitieron generar una interfaz más interactiva con el usuario de la misma manera se propuso  una plantilla para llenar el nodo template basado en una estructura de etiquetado HTML con la ayuda de etiquetas Style y Script para mostrar una plantilla agradable.</p>
+
+****CONCLUSIONES****
+
+<p><li>Node-Red brinda una interfaz gráfica amigable con el  usuario,para el desarrollo y diseño de Dashboard,ya que cuenta con distintos widgets los cuales han sido definidos a lo largo de la investigación conforme lo planteado,a su vez se revisó los parámetros de configuración de cada uno.</li></p>
+<p><li>La herramienta de Node-red es muy potente ya que sirve para comunicar hardware y servicios de una forma muy rápida y sencilla. Además simplifica de gran manera la tarea de programar gracias a la programación visual.</li></p>
+<p><li>Se cumplió nuestro objetivo acerca de desarrollar ejemplos básicos donde se evidencie el uso del dashboard de Node-red , esto debido a las investigaciones realizadas referentes al uso de la herramienta de programación, su funcionamiento y características. </li></p>
+
+****RECOMENDACIONES****
+
+<p> Se recomienda que antes de intentar generar una interfaz el usuario cuente con la instalación de todos los nodos posibles si va usar una base de datos instalar el nodo cloudant o si va a usar una salida de audio con voz en español descargar el nodo play audio. </p> 
+<p>Es recomendable conocer los parámetros de configuración de cada nodo a fin de evitar fallas en el desarrollo de los programas.</p>
+
+****CRONOGRAMA****
+
+*****IMAGEN*****
+
+ 
+****BIBLIOGRAFÍA****
+
+<p>García Jiménez, S. (2019). Desarrollo de paneles de control para redes IoT basados en NodeRed (Doctoral dissertation).</p>
+<p>S. Chanthakit and C. Rattanapoka, "MQTT Based Air Quality Monitoring System using Node MCU and Node-RED," 2018 Seventh ICT International Student Project Conference (ICT-ISPC), Nakhonpathom, 2018, pp. 1-5, doi: 10.1109/ICT-ISPC.2018.8523891.</p>
+<p>(20 de 11 de 2018). Obtenido de Aprendiendo Arduino: https://aprendiendoarduino.wordpress.com/2018/11/20/node-red/</p>
+<p>OpenJS Foundation. (s.f.). Node-red. Obtenido de Node-red: https://nodered.org</p>
+<p>OpenJS Foundation. (Julio de 2020). Node-RED. Obtenido de https://flows.nodered.org/node/node-red-dashboard</p>
+
+****ANEXOS****
+
+*****IMAGEN*****
+
+*****IMAGEN*****
+
+
+
 
 
 
