@@ -251,7 +251,16 @@ Las propiedades del nodo de plantilla se muestran a continuación.</p>
 
 ****MAPA DE VARIABLES****
 
-*****IMAGEN*****
+***ran***
+
+<p>Crea un espacio de memoria con el cual guardamos el número aleatorio que vamos a generar para el programa de char/gauge</p>
+***msg***
+
+<p>Crea un espacio de memoria con el cual ingresamos la cadena de caracteres para el programa audio output</p>
+
+***text***
+<p>crea un espacio de memoria que nos permite reemplazar el valor de la cadena de texto por un espacio vacío o por el botón que sigue en el programa audio output.</p>
+
 
 ****EXPLICACIÓN DE CÓDIGO FUENTE****
 
@@ -310,7 +319,7 @@ Las propiedades del nodo de plantilla se muestran a continuación.</p>
 
 ****CRONOGRAMA****
 
-*****IMAGEN*****
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/IMG/Cronograma.png)
 
  
 ****BIBLIOGRAFÍA****
@@ -323,11 +332,11 @@ Las propiedades del nodo de plantilla se muestran a continuación.</p>
 
 ****ANEXOS****
 
-*****IMAGEN*****
-
-*****IMAGEN*****
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/ANEXOS/ANEXO%201.png)
 
 
+
+![](https://github.com/kdpena2/Trabajo-Investigaci-n-Node-red/blob/master/ANEXOS/ANEXO%202.png)
 
 
 
