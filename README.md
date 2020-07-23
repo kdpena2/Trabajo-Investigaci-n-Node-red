@@ -57,7 +57,7 @@
 <p><li>Label/ Etiqueta: Se asigna el nombre que va a tener cada uno de los nodos al ser mostrados.</li></p>
 <p><li>Tooltip/ Información sobre herramientas: Se escribe una indicación al usuario, esta aparecerá al acercar el cursor al componente.</li></p>
  
-******imagen******
+******imagen*******
 
 <p><li>Name: Se sitúa el nombre que se va a visualizar solo en la terminal.</li></p>
  
